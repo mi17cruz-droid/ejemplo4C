@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Chocotejas de Coco</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			text-decoration: none;
+
+
+		}
+
+		body {
+			font-family: "Poppins", sans-serif;
+			background: Azure;
+			
+		}
+
+				
+
+
+	.menu {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 10px 0;
+		list-style: none;
+	}
+
+	.logo {
+		color: #FF8400;
+		font-size: 35px;
+		font-weight: 800;
+		text-transform: uppercase	;
+	}
+
+	.menu .navbar ul {
+		display: flex;
+		list-style: none;
+	}
+
+	.menu .navbar ul li a {
+		font-size: 20px;
+		padding: 0 20px;
+		color: #1B1B1D;
+		display: block;
+		font-weight: 600;
+		list-style: none;
+	}
+
+	.menu .navbar ul li a:hover {
+		color: #FF8400;
+		list-style: none;
+	}
+
+	#menu {
+		display: none;
+		list-style: none;
+	}
+
+	.menu-icono {
+		width: 25px;
+		list-style: none;
+	}
+
+	.menu label {
+		cursor: pointer;
+		display: none;
+		list-style: none;
+	}
+
+	img {
+			max-width:100%;
+		}
+
+		.products-content {
+		margin-top: 55px;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 70px;
+		list-style: none;
+		}
+
+	.regreso {
+			display: inline-block;
+			padding: 10px 25px;
+			background-color: #FF8400;
+			text-transform: uppercase;
+			border-radius: 25px;
+			font-size: 16px;
+			margin-top: 50px;
+			
+		}
+
+	.text {
+	font-size: 50;
+	line-height: 1.2;
+	text-transform: uppercase;
+	color: #1B1B1D;
+	margin-bottom: 25px;
+	flex-basis: 50%;
+	}
+
+	.text-1 {
+	font-size: 50;
+	line-height: 1.2;
+	text-transform: uppercase;
+	color: #1B1B1D;
+	margin-bottom: 65px;
+	}
+
+	.products-content {
+	margin-top: 50px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 20px;
+	list-style: none;
+	}
+
+	.products-1 {
+	background-color: #F7F7F7;
+	padding: 20px;
+	list-style: none;
+	}
+	.dos{
+			list-style: square inside;
+		}
+	.products-1 h4 {
+	color: #1B1B1D;
+	font-size: 22px;
+	margin-bottom: 5px;
+	list-style: none;
+	}
+
+	.products-1 p {
+	color: #FF8400;
+	margin-bottom: 10px;
+	font-size: 25px;
+	list-style: none;
+	}	
+
+	.comp {
+			display: inline-block;
+			padding: 10px 25px;
+			color: #FFFFFF;	
+			background-color: #FF8400;
+			text-transform: uppercase;
+			border-radius: 25px;
+			font-size: 16px;
+			list-style: none;
+		}
+
+
+	
+</style>
+</head>
+<body>
+
+	<div class="menu">
+		<a href="#" class="logo">RePosTeRia Kal</a>
+			<input type="checkbox" id="menu">
+			<label for="menu">
+			<img class="menu-icono" src="imagenes/menu.png">
+			</label>
+			<nav class="navbar">
+				<ul>
+				<li> <a href="index.html">Inicio</a> </li>
+				<li> <a href="#">Servicios</a> </li>
+				<li> <a href="#">Producto</a> </li>
+				<li> <a href="#">Contacto</a> </li>
+				</ul>
+			</nav>
+	</div>
+
+	<div class="products-content">
+
+		<div class="products-1">
+			<img src="imagenes/C2.jpg" width="880" height="390">
+			<h4>Chocoteja de Pecana</h4>
+			<p>$100</p>
+			<h5 class="comp">comprar</h5>
+		</div>
+
+		<footer>
+			<div class="text"> 
+				<h4><p>
+				las mejores chocotejas de coco estan preparadas con los mejores ingredientes del Perú
+				y esta preparada con los siguientes ingredientes:<br>
+				</p></h4>
+			</div>
+
+			<div>
+				<p>
+					<h4>Ingredientes:<br></h4></p>
+					<ul class="dos">
+						<li>4 a 5 tabletas chocolate bitter</li>
+						<li>1/2 kg manjar blanco</li>
+						<li>50 gr pecanas</li>
+						<li>50 gr maní tostado</li>
+						<li>50 gr almendras</li>
+						<li>50 gr pasas</li>
+						<li>2 tabletas chocolate blanco</li>
+					</ul>
+						<br>
+					<h4>Otros:<br></h4>
+					Envoltorios de papel para chocotejas<br>
+					Molde para chocotejas de 7x3<br>
+					Pincel de cocina pequeño<br>
+					Papel manteca o bolsa plástica<br>
+				
+			</div>
+
+			<div class="regreso">
+				<h4><a href="index.html">REGRESAR</a></h4>
+				
+			</div>	
+
+		</footer>
+	</div>
+
+
+</body>
+</html>	
